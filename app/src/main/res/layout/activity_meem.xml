@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F3F5"
+    android:orientation="vertical"
+    tools:context=".meem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#1F2335"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="40dp"
+
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:text="احكام الميم الساكنة"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+android:layout_marginTop="5dp"
+                android:background="@drawable/mainback"
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
